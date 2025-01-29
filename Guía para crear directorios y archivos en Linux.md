@@ -52,3 +52,7 @@ cd carpeta/subdirectorio1
 cd /home/adriana/carpeta/subdirectorio1/folder1
 touch file2
 ```
+## 14. Eliminar una carpeta
+```bash
+rmdir carpeta
+```
