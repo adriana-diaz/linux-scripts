@@ -56,3 +56,12 @@ touch file2
 ```bash
 rmdir carpeta
 ```
+## 15. Crear usuario
+```bash
+sudo useradd [el_usuario]
+```
+## 16. Crear contraseña del usuario
+```bash
+sudo passwd [el_usuario]
+y despues escribes la contraseña
+```
