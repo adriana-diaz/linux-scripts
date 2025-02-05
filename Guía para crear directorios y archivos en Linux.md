@@ -81,3 +81,15 @@ sudo usermod -aG grupo usuario
 ```bash
 groups [el_usuario]
 ```
+## 17. Eliminar un  user de un grupo
+```bash
+sudo gpasswd -d [el_usuario] [el_grupo]
+```
+## 17. Eliminar un  user 
+```bash
+sudo userdel [el_usuario]
+```
+## 18. Eliminar un  grupo 
+```bash
+sudo groupdel [el_grupo]
+```
