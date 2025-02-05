@@ -65,3 +65,11 @@ sudo useradd [el_usuario]
 sudo passwd [el_usuario]
 y despues escribes la contraseña
 ```
+## 16. Crear grupo
+```bash
+sudo groupadd [el_grupo]
+```
+## 16. Ver grupos creados 
+```bash
+less /etc/group
+```
