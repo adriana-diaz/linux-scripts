@@ -73,3 +73,7 @@ sudo groupadd [el_grupo]
 ```bash
 less /etc/group
 ```
+## 16. Asignar user a un grupo
+```bash
+sudo usermod -aG grupo usuario
+```
