@@ -77,3 +77,7 @@ less /etc/group
 ```bash
 sudo usermod -aG grupo usuario
 ```
+## 16. Ver a cuales grupo pertenece un usuario
+```bash
+groups [el_usuario]
+```
