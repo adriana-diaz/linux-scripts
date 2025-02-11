@@ -93,3 +93,7 @@ sudo userdel [el_usuario]
 ```bash
 sudo groupdel [el_grupo]
 ```
+## 19.  Muestra los permisos del directorio
+```bash
+ls -ld /[directorio]
+```
