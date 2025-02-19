@@ -97,3 +97,7 @@ sudo groupdel [el_grupo]
 ```bash
 ls -ld /[directorio]
 ```
+## 20.  Renombrar Archivos
+```bash
+mv [nombre_actual] [nuevo_nombre]
+```
