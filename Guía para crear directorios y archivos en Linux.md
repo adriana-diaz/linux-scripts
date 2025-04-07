@@ -101,7 +101,7 @@ ls -ld /[directorio]
 ```bash
 mv [nombre_actual] [nuevo_nombre]
 ```
-## 21.  Usa chgrp para cambiar el grupo de ‘ejemplo_renombrado.txt’ a ‘grupo_prueba’.
+## 21.  Usa chown para cambiar el propietario de ‘ejemplo_renombrado.txt’ a ‘usuario_prueba’
 ```bash
 sudo chown usuario_prueba ejemplo_renombrado.txt
 ```
