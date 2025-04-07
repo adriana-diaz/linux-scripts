@@ -28,7 +28,7 @@ cd ~
 pwd
 ```
 ## 8. Mostrar el arbol del home del usuario
-```bash
+```bashf
 tree
 ```
 ## 9. listar archivos y directorios de una carpeta 
@@ -96,6 +96,10 @@ sudo groupdel [el_grupo]
 ## 19.  Muestra los permisos del directorio
 ```bash
 ls -ld /[directorio]
+```
+## 20.  Renombrar Archivos
+```bash
+mv [nombre_actual] [nuevo_nombre]
 ```
 ## 20.  Renombrar Archivos
 ```bash
