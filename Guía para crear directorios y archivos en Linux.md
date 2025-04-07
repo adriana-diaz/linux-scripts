@@ -101,7 +101,7 @@ ls -ld /[directorio]
 ```bash
 mv [nombre_actual] [nuevo_nombre]
 ```
-## 20.  Renombrar Archivos
+## 21.  Usa chgrp para cambiar el grupo de ‘ejemplo_renombrado.txt’ a ‘grupo_prueba’.
 ```bash
-mv [nombre_actual] [nuevo_nombre]
+sudo chown usuario_prueba ejemplo_renombrado.txt
 ```
