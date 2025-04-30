@@ -65,43 +65,43 @@ sudo useradd [el_usuario]
 sudo passwd [el_usuario]
 y despues escribes la contraseña
 ```
-## 16. Crear grupo
+## 17. Crear grupo
 ```bash
 sudo groupadd [el_grupo]
 ```
-## 16. Ver grupos creados 
+## 18. Ver grupos creados 
 ```bash
 less /etc/group
 ```
-## 17. Asignar user a un grupo
+## 19. Asignar user a un grupo
 ```bash
 sudo usermod -aG grupo usuario
 ```
-## 18. Ver a cuales grupo pertenece un usuario
+## 20. Ver a cuales grupo pertenece un usuario
 ```bash
 groups [el_usuario]
 ```
-## 19. Eliminar un  user de un grupo
+## 21. Eliminar un  user de un grupo
 ```bash
 sudo gpasswd -d [el_usuario] [el_grupo]
 ```
-## 20. Eliminar un  user 
+## 22. Eliminar un  user 
 ```bash
 sudo userdel [el_usuario]
 ```
-## 21. Eliminar un  grupo 
+## 23. Eliminar un  grupo 
 ```bash
 sudo groupdel [el_grupo]
 ```
-## 22.  Muestra los permisos del directorio
+## 24.  Muestra los permisos del directorio
 ```bash
 ls -ld /[directorio]
 ```
-## 23.  Renombrar Archivos
+## 25.  Renombrar Archivos
 ```bash
 mv [nombre_actual] [nuevo_nombre]
 ```
-## 24.  Usa chown para cambiar el propietario de ‘ejemplo_renombrado.txt’ a ‘usuario_prueba’
+## 26.  Usa chown para cambiar el propietario de ‘ejemplo_renombrado.txt’ a ‘usuario_prueba’
 ```bash
 sudo chown usuario_prueba ejemplo_renombrado.txt
 ```
