@@ -73,35 +73,35 @@ sudo groupadd [el_grupo]
 ```bash
 less /etc/group
 ```
-## 16. Asignar user a un grupo
+## 17. Asignar user a un grupo
 ```bash
 sudo usermod -aG grupo usuario
 ```
-## 16. Ver a cuales grupo pertenece un usuario
+## 18. Ver a cuales grupo pertenece un usuario
 ```bash
 groups [el_usuario]
 ```
-## 17. Eliminar un  user de un grupo
+## 19. Eliminar un  user de un grupo
 ```bash
 sudo gpasswd -d [el_usuario] [el_grupo]
 ```
-## 17. Eliminar un  user 
+## 20. Eliminar un  user 
 ```bash
 sudo userdel [el_usuario]
 ```
-## 18. Eliminar un  grupo 
+## 21. Eliminar un  grupo 
 ```bash
 sudo groupdel [el_grupo]
 ```
-## 19.  Muestra los permisos del directorio
+## 22.  Muestra los permisos del directorio
 ```bash
 ls -ld /[directorio]
 ```
-## 20.  Renombrar Archivos
+## 23.  Renombrar Archivos
 ```bash
 mv [nombre_actual] [nuevo_nombre]
 ```
-## 21.  Usa chown para cambiar el propietario de ‘ejemplo_renombrado.txt’ a ‘usuario_prueba’
+## 24.  Usa chown para cambiar el propietario de ‘ejemplo_renombrado.txt’ a ‘usuario_prueba’
 ```bash
 sudo chown usuario_prueba ejemplo_renombrado.txt
 ```
